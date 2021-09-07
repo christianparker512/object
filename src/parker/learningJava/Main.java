@@ -6,5 +6,6 @@ public class Main {
         Car jaguar = new Car();
         Car infinity = new Car();
         jaguar.setModel("XKR");
+        System.out.println("The car's model is " + jaguar.getModel());
     }
 }
